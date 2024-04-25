@@ -6,7 +6,7 @@
     --cor0: #add9c05b;
     --cor1: #add9c0;
     --cor3: #038C3E;
-    --cor4: #ff002f8a;
+    --cor4: #ff002f;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif; 
     --font-bonita: 'Bebas Neue','cursive';
@@ -36,23 +36,31 @@
         header > p {
             font-family: var(--font-bonita);
             font-size: 40px;
-            color: var(--cor3);
+            color: red;
             max-width: 600px;
             padding-right: 10px;
             padding-left: 10px;
             margin: auto;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
+            background-color: rgba(255, 255, 255, 0.637);
+            
         }
 
         header > h1 {
-            color: red;
+            color: var(--cor3);
             font-family: var(--font-bonita);
             font-size: 60px;
             font-weight: normal;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
             box-sizing: 10px;
+        }
+
+        header#italia {
+            background-image: url('../Projeto-Italia/imagens/italia.png');
+            background-position: center center;
+            background-size: cover;
+
         }
 
 
@@ -67,6 +75,7 @@
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 3.5vw;
             transition-duration: 0.5s;
             
         }
